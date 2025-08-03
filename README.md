@@ -1,34 +1,28 @@
-# Car Dealership Annual Sales Dataset
+# Car Dealership Sales - Data Analysis Project
 
-This project includes a cleaned dataset of annual car sales from various dealership locations across the U.S., from 2015 to 2024.
+This is a simple data analytics project exploring sales data from a car dealership. It was created as part of my IBM Data Analyst certification and for my GitHub portfolio.
 
-## 📁 Dataset Details
-
-- **Years Covered**: 2015–2024
-- **Car Models**: Sedan, SUV, Truck, Coupe, Convertible
-- **Dealership Locations**: New York, Los Angeles, Chicago, Houston, Miami
-- **Fields**:
-  - `Year`: Sales year
-  - `Car_Model`: Type of car
-  - `Dealership_Location`: Location of the dealership
-  - `Units_Sold`: Number of cars sold
-  - `Average_Price`: Average price per unit
-  - `Total_Revenue`: Total revenue for the year
-
-## 📊 Sample Use Cases
-
-- Sales trend analysis
-- Car model popularity over years
-- Location-based revenue comparisons
-
-## 📈 Next Steps
-
-I will use this dataset to:
-- Practice data visualization using Python
-- Build a machine learning model to predict future sales
-
-## 💡 Tools
-
-- Python (Pandas, Matplotlib, Seaborn)
+## 🛠️ Tools & Technologies Used
+- Python
+- Pandas
+- Matplotlib
 - Jupyter Notebook
 
+## 📊 Project Objectives
+- Load and clean raw sales data
+- Analyze key sales trends by car type, year, and customer demographics
+- Visualize sales performance using charts
+
+## 🔍 Key Insights
+- [SUVs were the top sellers in 2023]
+- [Customers aged 30–40 made up 60% of all purchases]
+
+## 📁 Files
+- `CarSales.ipynb`: Main notebook with all code and visualizations
+- `car_data.csv`: The cleaned dataset used in analysis
+
+## ✅ Outcome
+This project demonstrates core data analysis skills, including data wrangling, visualization, and storytelling with real-world data.
+
+## 👨‍💻 Author
+[William Thompson](https://github.com/yooku98)
