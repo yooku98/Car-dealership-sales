@@ -25,11 +25,10 @@ This project includes a cleaned dataset of annual car sales from various dealers
 
 I will use this dataset to:
 - Practice data visualization using Python
-- Apply SQL queries on car sales
 - Build a machine learning model to predict future sales
 
 ## 💡 Tools
 
 - Python (Pandas, Matplotlib, Seaborn)
 - Jupyter Notebook
-- SQL
+
