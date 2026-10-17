@@ -1,9 +1,11 @@
+from pathlib import Path
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your Excel file
-df = pd.read_excel('sample dataset.xlsx')
+df = pd.read_excel(Path(__file__).with_name('sample dataset.xlsx'))
 
 # Group data by Year and sum the Total_Revenue
 revenue_by_year = df.groupby('Year')['Total_Revenue'].sum().reset_index()
@@ -23,6 +25,6 @@ plt.xticks(revenue_by_year['Year'])
 plt.tight_layout()
 
 # Show the plot
-plt.savefig('c:\Users\hp\Documents\GitHub\Car-dealership-sales/carsalespython.png')
+plt.savefig(Path(__file__).with_name('carsalespython.png'))
 
 plt.show()
